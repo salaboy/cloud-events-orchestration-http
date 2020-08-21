@@ -1,10 +1,10 @@
 dependencies:
 - name: customer-waiting-room-app
   repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.42
+  version: 0.0.57
 - name: payments-service
   repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.7
+  version: 0.0.12
 - name: queue-service
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.28
@@ -13,7 +13,7 @@ dependencies:
   version: 0.0.31
 - name: tickets-service
   repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.26
+  version: 0.0.28
 # - alias: zeebe
 #   name: zeebe-cluster
 #   repository: http://helm.zeebe.io
